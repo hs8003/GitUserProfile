@@ -27,11 +27,9 @@ class SearchUserVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // MARK : call api function
         performApiRequest(page: pageCount, userName: "")
     }
-    
     
     // MARK : Make api request to get search user info.
     private func performApiRequest(page:Int,userName:String) {
@@ -58,7 +56,6 @@ class SearchUserVC: UIViewController {
         }
     }
     
-    
     // MARK : For Pagination Bottom Refresh
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool){
         
@@ -74,7 +71,6 @@ class SearchUserVC: UIViewController {
         }
     }
 }
-
 
 // MARK : UISearch Bar Delegates
 extension SearchUserVC:UISearchBarDelegate{
@@ -101,7 +97,6 @@ extension SearchUserVC:UISearchBarDelegate{
         return true
     }
     
-    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
 
         self.searchActive = false;
@@ -114,7 +109,6 @@ extension SearchUserVC:UISearchBarDelegate{
              tblView.reloadData()
         }
     }
-    
     
     // MARK : Search will be populate result on click this search button
     func searchBarSearchButtonClicked( _ searchBar: UISearchBar)
@@ -152,7 +146,6 @@ extension SearchUserVC:UITableViewDelegate,UITableViewDataSource{
         return cell ?? UITableViewCell()
     }
     
-    
      // MARK : Selection of the cell
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = self.storyboard?.instantiateViewController(withIdentifier: "UserDetailVC") as? UserDetailVC{
@@ -172,7 +165,6 @@ extension SearchUserVC:UITableViewDelegate,UITableViewDataSource{
         })
     }
 }
-
 
  // MARK : To create the data model for api request keys
 class DataModel : Codable {

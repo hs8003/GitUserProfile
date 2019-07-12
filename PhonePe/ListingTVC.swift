@@ -24,7 +24,6 @@ class ListingTVC: UITableViewController {
        performApiRequest(page: pageCount)
     }
     
-    
      // MARK : Make api request to get Followers/Following info for particular user.
     private func performApiRequest(page:Int) {
         Alamofire.request(url+"\(page)").responseData { (response) in
@@ -46,7 +45,6 @@ class ListingTVC: UITableViewController {
         }
     }
     
-    
     // MARK : For Pagination Bottom Refresh
     override func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         if scrollView == tableView{
@@ -63,9 +61,6 @@ class ListingTVC: UITableViewController {
         }
     }
     
-    
-    
-
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -76,7 +71,6 @@ class ListingTVC: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return data.count
     }
-
    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "ListingCell", for: indexPath) as? ListingCell{
@@ -87,7 +81,6 @@ class ListingTVC: UITableViewController {
         return UITableViewCell()
     }
     
-    
    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = self.storyboard?.instantiateViewController(withIdentifier: "UserDetailVC") as? UserDetailVC{
             vc.searchUser = self.data[indexPath.row].login ?? ""
@@ -96,15 +89,11 @@ class ListingTVC: UITableViewController {
     }
 }
 
-
-
-
 class ListingCell: UITableViewCell {
     
     // MARK:Variables
     @IBOutlet weak var img:UIImageView!
     @IBOutlet weak var name:UILabel!
-    
     
     // MARK:Make circle image of user
     override func awakeFromNib() {

@@ -92,7 +92,7 @@ class UserDetailVC: UIViewController {
     //MARK : Perform Followings button action
     @IBAction func onClickFollowings(_sender:UIButton){
         if let vc = self.storyboard?.instantiateViewController(withIdentifier: "ListingTVC") as? ListingTVC{
-            vc.url = "https://api.github.com/users/\(searchUser)/following?&page="
+            vc.url = APIUrl.MainUrl.rawValue+"users/\(searchUser)/following?&page="
             vc.navigationItem.title = "Following"
             self.navigationController?.pushViewController(vc, animated: true)
         }
@@ -115,6 +115,7 @@ class UserDetailVC: UIViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
+
 
      // MARK : Make api request to get searched user info.
     private func performApiRequest(userName:String) {
