@@ -1,0 +1,6 @@
+framework module Pods_PhonePe {
+  umbrella header "Pods-PhonePe-umbrella.h"
+
+  export *
+  module * { export * }
+}

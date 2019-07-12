@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C329732ECFA6CFC637613B91 /* Pods_PhonePe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7244ED133BBF1715E1ADE1A8 /* Pods_PhonePe.framework */; };
+		ED30277322D752500021DCA3 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30277222D752500021DCA3 /* MoreVC.swift */; };
+		ED40D77522D5A9C500F9DE07 /* SearchUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40D77422D5A9C500F9DE07 /* SearchUserVC.swift */; };
+		ED40D77722D5A9F700F9DE07 /* UserDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40D77622D5A9F700F9DE07 /* UserDetailVC.swift */; };
+		ED40D77922D60AC200F9DE07 /* ListingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40D77822D60AC200F9DE07 /* ListingTVC.swift */; };
+		ED56B44E22D88C2B005A58CC /* Git-Logo-White.png in Resources */ = {isa = PBXBuildFile; fileRef = ED56B44D22D88C2B005A58CC /* Git-Logo-White.png */; };
+		ED7CF6BC22D481280031AFFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7CF6BB22D481280031AFFD /* AppDelegate.swift */; };
+		ED7CF6BE22D481280031AFFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7CF6BD22D481280031AFFD /* ViewController.swift */; };
+		ED7CF6C122D481280031AFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7CF6BF22D481280031AFFD /* Main.storyboard */; };
+		ED7CF6C322D4812B0031AFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7CF6C222D4812B0031AFFD /* Assets.xcassets */; };
+		ED7CF6C622D4812B0031AFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7CF6C422D4812B0031AFFD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7244ED133BBF1715E1ADE1A8 /* Pods_PhonePe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhonePe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		854FAF64A18A98A00FB3CE82 /* Pods-PhonePe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhonePe.debug.xcconfig"; path = "Target Support Files/Pods-PhonePe/Pods-PhonePe.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C46B667DCFF2ECA0E6992D /* Pods-PhonePe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhonePe.release.xcconfig"; path = "Target Support Files/Pods-PhonePe/Pods-PhonePe.release.xcconfig"; sourceTree = "<group>"; };
+		ED30277222D752500021DCA3 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		ED40D77422D5A9C500F9DE07 /* SearchUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserVC.swift; sourceTree = "<group>"; };
+		ED40D77622D5A9F700F9DE07 /* UserDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailVC.swift; sourceTree = "<group>"; };
+		ED40D77822D60AC200F9DE07 /* ListingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTVC.swift; sourceTree = "<group>"; };
+		ED56B44D22D88C2B005A58CC /* Git-Logo-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Git-Logo-White.png"; sourceTree = "<group>"; };
+		ED7CF6B822D481280031AFFD /* PhonePe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonePe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7CF6BB22D481280031AFFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED7CF6BD22D481280031AFFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED7CF6C022D481280031AFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED7CF6C222D4812B0031AFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED7CF6C522D4812B0031AFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED7CF6C722D4812B0031AFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7CF6B522D481280031AFFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C329732ECFA6CFC637613B91 /* Pods_PhonePe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F6F04B854BE31D62E79960 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				854FAF64A18A98A00FB3CE82 /* Pods-PhonePe.debug.xcconfig */,
+				A7C46B667DCFF2ECA0E6992D /* Pods-PhonePe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		726BC7F60B78AE6046F5D1F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7244ED133BBF1715E1ADE1A8 /* Pods_PhonePe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7CF6AF22D481280031AFFD = {
+			isa = PBXGroup;
+			children = (
+				ED7CF6BA22D481280031AFFD /* PhonePe */,
+				ED7CF6B922D481280031AFFD /* Products */,
+				04F6F04B854BE31D62E79960 /* Pods */,
+				726BC7F60B78AE6046F5D1F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7CF6B922D481280031AFFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CF6B822D481280031AFFD /* PhonePe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7CF6BA22D481280031AFFD /* PhonePe */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CF6BB22D481280031AFFD /* AppDelegate.swift */,
+				ED7CF6BD22D481280031AFFD /* ViewController.swift */,
+				ED40D77422D5A9C500F9DE07 /* SearchUserVC.swift */,
+				ED40D77622D5A9F700F9DE07 /* UserDetailVC.swift */,
+				ED40D77822D60AC200F9DE07 /* ListingTVC.swift */,
+				ED30277222D752500021DCA3 /* MoreVC.swift */,
+				ED56B44D22D88C2B005A58CC /* Git-Logo-White.png */,
+				ED7CF6BF22D481280031AFFD /* Main.storyboard */,
+				ED7CF6C222D4812B0031AFFD /* Assets.xcassets */,
+				ED7CF6C422D4812B0031AFFD /* LaunchScreen.storyboard */,
+				ED7CF6C722D4812B0031AFFD /* Info.plist */,
+			);
+			path = PhonePe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7CF6B722D481280031AFFD /* PhonePe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7CF6CA22D4812B0031AFFD /* Build configuration list for PBXNativeTarget "PhonePe" */;
+			buildPhases = (
+				AE1F80F524695EE3FA687E93 /* [CP] Check Pods Manifest.lock */,
+				ED7CF6B422D481280031AFFD /* Sources */,
+				ED7CF6B522D481280031AFFD /* Frameworks */,
+				ED7CF6B622D481280031AFFD /* Resources */,
+				CB7A131DF98CB461398B4973 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhonePe;
+			productName = PhonePe;
+			productReference = ED7CF6B822D481280031AFFD /* PhonePe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7CF6B022D481280031AFFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Harshit;
+				TargetAttributes = {
+					ED7CF6B722D481280031AFFD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = ED7CF6B322D481280031AFFD /* Build configuration list for PBXProject "PhonePe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED7CF6AF22D481280031AFFD;
+			productRefGroup = ED7CF6B922D481280031AFFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7CF6B722D481280031AFFD /* PhonePe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7CF6B622D481280031AFFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7CF6C622D4812B0031AFFD /* LaunchScreen.storyboard in Resources */,
+				ED56B44E22D88C2B005A58CC /* Git-Logo-White.png in Resources */,
+				ED7CF6C322D4812B0031AFFD /* Assets.xcassets in Resources */,
+				ED7CF6C122D481280031AFFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE1F80F524695EE3FA687E93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhonePe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB7A131DF98CB461398B4973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhonePe/Pods-PhonePe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhonePe/Pods-PhonePe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7CF6B422D481280031AFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED40D77722D5A9F700F9DE07 /* UserDetailVC.swift in Sources */,
+				ED30277322D752500021DCA3 /* MoreVC.swift in Sources */,
+				ED7CF6BE22D481280031AFFD /* ViewController.swift in Sources */,
+				ED40D77522D5A9C500F9DE07 /* SearchUserVC.swift in Sources */,
+				ED40D77922D60AC200F9DE07 /* ListingTVC.swift in Sources */,
+				ED7CF6BC22D481280031AFFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED7CF6BF22D481280031AFFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7CF6C022D481280031AFFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED7CF6C422D4812B0031AFFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7CF6C522D4812B0031AFFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7CF6C822D4812B0031AFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED7CF6C922D4812B0031AFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7CF6CB22D4812B0031AFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854FAF64A18A98A00FB3CE82 /* Pods-PhonePe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K88VHYCVJ;
+				INFOPLIST_FILE = PhonePe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phonepe.PhonePe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7CF6CC22D4812B0031AFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C46B667DCFF2ECA0E6992D /* Pods-PhonePe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K88VHYCVJ;
+				INFOPLIST_FILE = PhonePe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phonepe.PhonePe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7CF6B322D481280031AFFD /* Build configuration list for PBXProject "PhonePe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7CF6C822D4812B0031AFFD /* Debug */,
+				ED7CF6C922D4812B0031AFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7CF6CA22D4812B0031AFFD /* Build configuration list for PBXNativeTarget "PhonePe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7CF6CB22D4812B0031AFFD /* Debug */,
+				ED7CF6CC22D4812B0031AFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7CF6B022D481280031AFFD /* Project object */;
+}
