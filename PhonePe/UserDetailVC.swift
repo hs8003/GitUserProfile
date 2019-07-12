@@ -115,7 +115,6 @@ class UserDetailVC: UIViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
-    
 
      // MARK : Make api request to get searched user info.
     private func performApiRequest(userName:String) {

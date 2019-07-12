@@ -175,7 +175,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "123"
             endingLineNumber = "123"
-            landmarkName = "onClickMoreUserInfo(_sender:)"
+            landmarkName = "performApiRequest(userName:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
